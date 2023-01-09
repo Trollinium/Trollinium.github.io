@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+html, body {
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-color: black;
+    overflow: hidden;
+}
+#main-content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.troll {
+    color: #6900ee;
+    font-family: 'Changa', sans-serif;
+}
+#Trollinium {
+    transition: 1s;
+    user-select: none;
+}
+#Trollinium:hover {
+    text-shadow: 5px 5px 5px rgba(105,0,238,0.7), -5px -5px 5px rgba(105,0,238,0.7);
+    transform: rotate(-2deg);
+}
